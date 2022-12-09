@@ -150,12 +150,24 @@ footer p {
 
 @media (min-width: 348px) and (max-width: 649px) {
     .logo {
-        width: 19vw;
-        padding-bottom: 25px;
+        width: 22vw;
+        padding-bottom: 15px;
     }
     .iconos {
-        width: 9vw;
-        margin: 15px;
+        width: 10vw;
+        margin: 5px 10px;
     
     }
+    .wspIcon {
+        top: 80%;
+        right: 3%;
+    }
+    .section-heading .section-heading-lower {
+        font-size: 2rem;
+    }
+    .contenedorRedesHeader {
+        padding: 6px 6px;
+    
+    }
+    
 }
