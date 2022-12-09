@@ -1,0 +1,161 @@
+/*Paula********************************************************/
+.location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 95%;
+}
+
+.wspIcon {
+    position: fixed;
+    width: 70px;
+    top: 86%;
+    right: 2%;
+}
+
+.wspIcon:hover {
+    filter: drop-shadow(2px 2px 9px rgb(1, 2, 0)) opacity(.9);
+}
+
+.contenedorRedesHeader {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 30px;
+
+}
+
+.iconos {
+    width: 4vw;
+    transition: 1s linear;
+    margin: 10px;
+
+}
+
+.iconos:hover{
+    filter: drop-shadow(2px 2px 9px rgb(1, 2, 0)) opacity(.6);
+}
+
+body {
+    background-image: none;
+    background-color: #678983;
+}
+
+.cta {
+    background-color: #181D31;
+}
+
+.footer {
+    background-color: #181D31;
+}
+
+#mainNav {
+    background-color: #181D31;
+    color: red;
+}
+
+.cta-inner {
+    background-color: #678983;
+
+}
+
+.bg-faded {
+    background-color: #F0E9D2;
+}
+
+.btn-primary {
+    font-family: "Raleway";
+    font-size: 1rem;
+    background-color: #f3cb9a;
+    border: 2px solid #f3cb9a;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px black;
+    transition: color 2s linear;
+
+}
+
+.btn-primary:hover {
+    background-color: #f7c383;
+    border-color: #f7c383;
+
+}
+
+.btn-outline-dark {
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px black;
+    transition: color 2s linear;
+}
+
+#page-sectioncta {
+    background-color: #678983;
+
+}
+
+#cta-inner {
+    background-color: #181D31;
+    color: white;
+
+}
+
+.site-heading-lower {
+    color: white;
+}
+
+.site-heading-upper {
+    color: #F5D5AE;
+}
+
+.logo {
+    width: 12vw;
+}
+
+.logo:hover {
+    filter: drop-shadow(4px 4px 15px rgb(19, 39, 1));
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+    transition: color 1s linear;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link:hover {
+    color: #F5D5AE;
+    font-weight: 800;
+}
+
+footer p {
+    font-family: "Raleway";
+    font-size: 1.2rem;
+}
+
+
+@media (min-width: 650px) and (max-width: 1050px) {
+    .logo {
+        width: 15vw;
+        padding-bottom: 15px;
+    }
+    .iconos {
+        width: 7vw;
+        margin: 15px;
+    
+    }
+}
+
+@media (min-width: 348px) and (max-width: 649px) {
+    .logo {
+        width: 19vw;
+        padding-bottom: 25px;
+    }
+    .iconos {
+        width: 9vw;
+        margin: 15px;
+    
+    }
+}
