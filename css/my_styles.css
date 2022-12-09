@@ -106,7 +106,7 @@ body {
 }
 
 .logo {
-    width: 12vw;
+    width: 14vw;
 }
 
 .logo:hover {
@@ -159,6 +159,7 @@ footer p {
     
     }
     .wspIcon {
+        position: fixed;
         top: 80%;
         right: 3%;
     }
@@ -167,7 +168,6 @@ footer p {
     }
     .contenedorRedesHeader {
         padding: 6px 6px;
-    
-    }
+        }
     
 }
