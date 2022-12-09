@@ -9,7 +9,7 @@
 .wspIcon {
     position: fixed;
     width: 70px;
-    top: 86%;
+    bottom: 20%;
     right: 2%;
 }
 
@@ -160,7 +160,7 @@ footer p {
     }
     .wspIcon {
         position: fixed;
-        top: 80%;
+        bottom: 22%;
         right: 3%;
     }
     .section-heading .section-heading-lower {
